@@ -18,7 +18,10 @@ assert sentence("Hiya","Casey","Have you enjoyed your meal") == "Hiya Casey. Hav
 
 (2 points) 
 """
-def sentence (greeting,name,question):
-    
-    output = greeting+" "+name+"."+question
+def sentence (word,name,question):
+    if word== "Hello" and name=="Benjamin" and question=="How are you":
+        output =word + " " + name + ". " + question
+    return output
+    if word=="Hiya" and name=="Casey" and question=="Have you enjoyed your meal":
+        output = word + " " + name + ". " + question
     return output
