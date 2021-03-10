@@ -17,6 +17,7 @@ assert multiplication(2,5) == [2, 4, 6, 8, 10]
 def multiplication(num,t=12):
     list=[]
     for i in range(t):
-        num=num*t
-        list.append(num)
+        nth=nth+1
+        nums=num*nth   
+        list.append(nums)
     return list
