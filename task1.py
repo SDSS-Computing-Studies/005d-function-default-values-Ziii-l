@@ -18,6 +18,6 @@ assert sentence("Hiya","Casey","Have you enjoyed your meal") == "Hiya Casey. Hav
 
 (2 points) 
 """
-def sentence (name="Hello Benjamin",question="How are you"):
-    return name+"."+question
+def sentence (greeting,name="Hello Benjamin",question="How are you"):
+    return greeting+" "+name+"."+question
 
