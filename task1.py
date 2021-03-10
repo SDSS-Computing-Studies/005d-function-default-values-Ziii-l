@@ -20,5 +20,4 @@ assert sentence("Hiya","Casey","Have you enjoyed your meal") == "Hiya Casey. Hav
 """
 def sentence (greeting,name="Benjamin",question="How are you"):
     output = greeting+" "+name+"."+question
-    output2="output"
-    return output2
+    return output
